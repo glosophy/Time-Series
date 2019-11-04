@@ -1,2 +1,2 @@
 # Time Series
-This repo includes useful built-in functions in Python for time series analyses
+This repo includes useful functions in Python for time series analyses
