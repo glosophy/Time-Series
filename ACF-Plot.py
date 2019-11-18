@@ -2,10 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def plot_ACF(x):
-    '''It returns the ACF plot for a given list of residuals'''
+def plot_ACF(x, lags):
+    '''It returns the ACF plot for a given list of residuals and number of lags'''
 
-    list20 = x[0:]
+    list20 = x[:lags+1]
 
     # Reverse the list to make it mirror the y axis
     list_r = list20[::-1]
